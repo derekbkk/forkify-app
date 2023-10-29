@@ -64,3 +64,4 @@ export const sendJSON = async function (url, uploadData) {
   }
 };
 */
+// Refactored to const AJAX
