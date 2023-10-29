@@ -9,6 +9,7 @@ class SearchView {
   }
 
   _clearInput() {
+    console.log(this);
     this._parentEl.querySelector('.search__field').value = '';
   }
 
@@ -21,3 +22,4 @@ class SearchView {
 }
 
 export default new SearchView();
+console.log();
